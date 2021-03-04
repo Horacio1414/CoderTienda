@@ -1,3 +1,6 @@
+import logo from '../logo.svg';
+import cartplus from '../cartplus.svg';
+
 function Nav() {
     return (
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -12,6 +15,7 @@ function Nav() {
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Características</a>
+              <img src='logo.svg' alt="pruba"></img>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Modelos</a>
@@ -25,6 +29,10 @@ function Nav() {
                 <a class="dropdown-item" href="#">Another action</a>
                 <a class="dropdown-item" href="#">Something else here</a>
               </div>
+            </li>
+            <li class="nav-item">
+              <img src ={cartplus} />
+              <a class="nav-link" href={cartplus}></a>
             </li>
           </ul>
         </div>
