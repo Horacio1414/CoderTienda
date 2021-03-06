@@ -1,8 +1,11 @@
-import logo from '../logo.svg';
+
 import cartplus from '../cartplus.svg';
+import Cart from './CartWidget';
+import Container from './ItemListContainer';
 
 function Nav() {
     return (
+      <>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,7 +18,7 @@ function Nav() {
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Características</a>
-              <img src='logo.svg' alt="pruba"></img>
+              
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Modelos</a>
@@ -31,12 +34,14 @@ function Nav() {
               </div>
             </li>
             <li class="nav-item">
-              <img src ={cartplus} />
-              <a class="nav-link" href={cartplus}></a>
+              <Cart />
+              <a class="nav-link" href="#"></a>
             </li>
           </ul>
         </div>
       </nav>
+      
+      </>
     );
   }
   

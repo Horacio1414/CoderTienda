@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Nav from './components/Nav';
-import Head from './components/head'
+import Head from './components/Head';
+import Container from './components/ItemListContainer';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Nav />
+    <App />
+    
   </React.StrictMode>,
   document.getElementById('root')
 );

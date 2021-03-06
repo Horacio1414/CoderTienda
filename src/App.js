@@ -1,8 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
-import Head from './components/head'
+import Head from './components/Head';
+import Nav from './components/Nav';
+import Container from './components/ItemListContainer'
 
-const App = () =>  <Head title="Vamos a probar" description="buebuebueee" />
+function App() {
+    return(
+        <>
+        <Nav />
+        <Container />
+        </>
+        
+    )
+}
   
 
 
